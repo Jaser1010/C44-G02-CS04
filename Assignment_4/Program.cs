@@ -146,6 +146,31 @@ namespace Assignment_4
             */
             #endregion
 
+            #region Q9 - Convert a decimal number to binary without using an array.
+            /*
+            Console.WriteLine("Q9: Decimal to Binary Conversion");
+            Console.Write("Enter a number to convert: ");
+            int decNum = int.Parse(Console.ReadLine());
+            int originalNum = decNum;
+            string binaryStr = "";
+
+            if (decNum == 0)
+            {
+                binaryStr = "0";
+            }
+            else
+            {
+                while (decNum > 0)
+                {
+                    int rem = decNum % 2;
+                    binaryStr = rem + binaryStr; // Prepend the remainder
+                    decNum /= 2;
+                }
+            }
+            Console.WriteLine($"The Binary of {originalNum} is {binaryStr}.");
+            */
+            #endregion
+
         }
     }
 }
