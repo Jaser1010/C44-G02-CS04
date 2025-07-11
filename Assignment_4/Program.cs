@@ -100,6 +100,23 @@ namespace Assignment_4
             */
             #endregion
 
+            #region Q7 - Reverse an integer.
+            /*
+            Console.WriteLine("Q7: Reverse an Integer");
+            Console.Write("Input an integer: ");
+            int num7 = Convert.ToInt32(Console.ReadLine());
+            int reversedNum = 0;
+            int remainder;
+            while (num7 != 0)
+            {
+                remainder = num7 % 10;
+                reversedNum = reversedNum * 10 + remainder;
+                num7 /= 10;
+            }
+            Console.WriteLine("Reversed integer: " + reversedNum);
+            */
+            #endregion
+
         }
     }
 }
