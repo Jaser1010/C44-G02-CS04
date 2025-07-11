@@ -171,6 +171,38 @@ namespace Assignment_4
             */
             #endregion
 
+            #region Q10 - Determine if three points are collinear.
+            /*
+            Console.WriteLine("Q10: Check if points are on a single straight line");
+            
+            Console.Write("Enter point 1 (x1 y1): ");
+            string[] p1 = Console.ReadLine().Split();
+            int x1 = int.Parse(p1[0]);
+            int y1 = int.Parse(p1[1]);
+
+            Console.Write("Enter point 2 (x2 y2): ");
+            string[] p2 = Console.ReadLine().Split();
+            int x2 = int.Parse(p2[0]);
+            int y2 = int.Parse(p2[1]);
+
+            Console.Write("Enter point 3 (x3 y3): ");
+            string[] p3 = Console.ReadLine().Split();
+            int x3 = int.Parse(p3[0]);
+            int y3 = int.Parse(p3[1]);
+
+            bool areCollinear = (y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1);
+
+            if (areCollinear)
+            {
+                Console.WriteLine("The points lie on a single straight line.");
+            }
+            else
+            {
+                Console.WriteLine("The points do not lie on a single straight line.");
+            }
+            */
+            #endregion
+
         }
     }
 }
