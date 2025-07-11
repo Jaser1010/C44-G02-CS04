@@ -24,6 +24,20 @@ namespace Assignment_4
             }
             */
             #endregion
+
+            #region Q2 - Print a multiplication table up to 12.
+            /*
+            Console.WriteLine("Q2: Multiplication Table up to 12");
+            Console.Write("Input: ");
+            int number2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Output: ");
+            for (int i = 1; i <= 12; i++)
+            {
+                Console.Write(number2 * i + " ");
+            }
+            */
+            #endregion
+
         }
     }
 }
