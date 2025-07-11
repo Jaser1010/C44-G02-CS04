@@ -67,7 +67,24 @@ namespace Assignment_4
             */
             #endregion
 
+            #region Q5 - Calculate total, average, and percentage of five subjects.
+            /*
+            Console.WriteLine("Q5: Calculate Total, Average, and Percentage");
+            Console.Write("Input - Enter Marks of five subjects: ");
+            string[] marksInput = Console.ReadLine().Split(' ');
+            double totalMarks = 0;
+            for(int i = 0; i < marksInput.Length; i++)
+            {
+                totalMarks += Convert.ToDouble(marksInput[i]);
+            }
+            double averageMarks = totalMarks / marksInput.Length;
+            double percentage = ( averageMarks / totalMarks ) * 100;
 
+            Console.WriteLine("Output: Total marks = " + totalMarks);
+            Console.WriteLine("Average Marks = " + averageMarks);
+            Console.WriteLine("Percentage = " + percentage + "%");
+            */
+            #endregion
 
         }
     }
