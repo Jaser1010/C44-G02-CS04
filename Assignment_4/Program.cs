@@ -117,6 +117,35 @@ namespace Assignment_4
             */
             #endregion
 
+            #region Q8 - Find prime numbers within a range.
+            /*
+            Console.WriteLine("Q8: Find Prime Numbers in a Range");
+            Console.Write("Input starting number of range: ");
+            int startNum = int.Parse(Console.ReadLine());
+            Console.Write("Input ending number of range: ");
+            int endNum = int.Parse(Console.ReadLine());
+
+            Console.Write($"The prime numbers between {startNum} and {endNum} are: ");
+            for (int i = startNum; i <= endNum; i++)
+            {
+                if (i <= 1) continue; // 0 and 1 are not prime
+                bool isPrime = true;
+                for (int j = 2; j * j <= i; j++)
+                {
+                    if (i % j == 0)
+                    {
+                        isPrime = false;
+                        break;
+                    }
+                }
+                if (isPrime)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+            */
+            #endregion
+
         }
     }
 }
