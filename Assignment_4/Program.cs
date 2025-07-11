@@ -86,6 +86,20 @@ namespace Assignment_4
             */
             #endregion
 
+            #region Q6 - Reverse a string.
+            /*
+            Console.WriteLine("Q6: Reverse a String");
+            Console.Write("Input a string: ");
+            string originalString = Console.ReadLine();
+            string reversedString = "";
+            for (int i = originalString.Length - 1; i >= 0; i--)
+            {
+                reversedString += originalString[i];
+            }
+            Console.WriteLine("Reversed string: " + reversedString);
+            */
+            #endregion
+
         }
     }
 }
