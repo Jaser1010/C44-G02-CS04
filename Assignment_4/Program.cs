@@ -51,6 +51,24 @@ namespace Assignment_4
             */
             #endregion
 
+            #region Q4 - Calculate the power of a number.
+            /*
+            Console.WriteLine("Q4: Calculate Power");
+            Console.Write("Input: ");
+            string[] inputs4 = Console.ReadLine().Split(' ');
+            int baseNum = int.Parse(inputs4[0]);
+            int exponent = int.Parse(inputs4[1]);
+            long result4 = 1; // Use long to prevent overflow with large results
+            for (int i = 0; i < exponent; i++)
+            {
+                result4 *= baseNum;
+            }
+            Console.WriteLine("Output: " + result4);
+            */
+            #endregion
+
+
+
         }
     }
 }
