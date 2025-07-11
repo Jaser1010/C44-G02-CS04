@@ -38,6 +38,19 @@ namespace Assignment_4
             */
             #endregion
 
+            #region Q3 - Print all even numbers between 1 and a given number.
+            /*
+            Console.WriteLine("Q3: Print Even Numbers");
+            Console.Write("Input: ");
+            int number3 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Output: ");
+            for (int i = 2; i <= number3; i += 2)
+            {
+                Console.Write(i + " ");
+            }
+            */
+            #endregion
+
         }
     }
 }
